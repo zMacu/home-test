@@ -23,8 +23,7 @@
 ### General requisites for submission
 
 1. Programming languages
-   - Java or Javascript are preferred.
-   - Other languages like C#, Go or Python are accepted but bear in mind we work in Java/Javascript
+   - Java
 
 2. Drivers. Only one accepted
    - Playwright
