@@ -1,5 +1,16 @@
 #**App Automation Test**
 
+#**Instructions to run features:**
+
+- From IDE, there are two options: 
+1. Go to src/test/runner/CucumberTestRunner and run class (report will be generated in target/cucumber-reports after run)
+2. Go to each feature and run entire feature or individual scenarios
+
+**NOTE: you can add -Dheadless=false -Dbrowser=firefox on VM options in run/debug configurations to decide headless or non-headless mode and which browser do you want to run it.
+mvn Default options: headless=true browser=chromium**
+
+- From command line: `mvn clean test` (you can also add `-Dheadless=false -Dbrowser=firefox` in command line)
+
 ## Must have before start
 
 - Git
@@ -23,8 +34,7 @@
 ### General requisites for submission
 
 1. Programming languages
-   - Java or Javascript are preferred.
-   - Other languages like C#, Go or Python are accepted but bear in mind we work in Java/Javascript
+   - Java
 
 2. Drivers. Only one accepted
    - Playwright
